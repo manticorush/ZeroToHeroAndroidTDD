@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         val textView = findViewById<TextView>(R.id.titleTextView)
 
         button.setOnClickListener{
-            textView.setText("I am an Android Developer!")
+            textView.text = "I am an Android Developer!"
         }
     }
 }
